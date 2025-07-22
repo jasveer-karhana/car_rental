@@ -50,13 +50,35 @@
     max-width: 100vw !important;
   }
   section {
-    padding: 32px 0 24px 0 !important;
+    padding: 18px 0 12px 0 !important;
     max-width: 100vw !important;
+    text-align: left !important;
+  }
+  h1 {
+    font-size: 2rem !important;
+    text-align: left !important;
+    word-break: break-word;
+  }
+  h2 {
+    font-size: 1.4rem !important;
+    text-align: left !important;
+    word-break: break-word;
+  }
+  h3 {
+    font-size: 1.1rem !important;
+    text-align: left !important;
+    word-break: break-word;
+  }
+  p, li, span, label {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    word-break: break-word;
   }
   .card, .fab-btn {
-    width: 90vw !important;
+    width: 98vw !important;
     min-width: unset !important;
     max-width: 100vw !important;
+    margin: 0 auto !important;
   }
   .fab-btn {
     width: 48px !important;
@@ -64,44 +86,40 @@
     font-size: 24px !important;
     border-width: 2px !important;
   }
-  .floating-contact-buttons-alt {
-    left: 12px !important;
-    top: 30vh !important;
-    bottom: unset !important;
-    width: 60px !important;
-    height: auto !important;
-    transform: none !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 16px !important;
-  }
-  .fab-btn-wrapper {
-    position: static !important;
-    margin: 0 !important;
-  }
-  .whatsapp-btn-wrapper {
-    bottom: unset !important;
-  }
-  h1, h2 {
-    font-size: 2rem !important;
-  }
-  h3 {
-    font-size: 1.2rem !important;
-  }
-  img {
+  img, video {
     max-width: 100% !important;
     height: auto !important;
+    border-radius: 10px !important;
   }
-  .floating-contact-buttons-new {
-    right: 12px;
-    bottom: 12px;
-    gap: 12px;
+  .about-section, .services-section, .gallery-section, .testimonials-section, .contact-section, .car-listings-section {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
   }
-  .fab-btn-new {
-    width: 44px;
-    height: 44px;
-    font-size: 20px;
-    border-width: 1.5px;
+  .about-section > div, .services-section > div, .gallery-section > div, .testimonials-section > div, .contact-section > div, .car-listings-section > div {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 16px !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+  }
+  [style*="display: flex"] {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 16px !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+  }
+  [style*="width: 300px"] {
+    width: 98vw !important;
+    min-width: unset !important;
+    max-width: 100vw !important;
+  }
+  [style*="padding: 2.5rem 2rem"] {
+    padding: 1rem !important;
+  }
+  [style*="padding: 24px"], [style*="padding: 32px"], [style*="padding: 20px"] {
+    padding: 1rem !important;
   }
 }
