@@ -28,11 +28,6 @@ const ContactSection = () => {
         <p style={{ fontSize: 18, margin: 0 }}><strong>Phone:</strong> {contact.phone}</p>
         <p style={{ fontSize: 18, margin: 0 }}><strong>Email:</strong> {contact.email}</p>
         <p style={{ fontSize: 18, margin: 0, marginBottom: 16 }}><strong>Address:</strong> {contact.address}</p>
-        <img
-          src="https://maps.googleapis.com/maps/api/staticmap?center=New+York,NY&zoom=13&size=600x200&key=AIzaSyD..."
-          alt="Map location"
-          style={{ width: '100%', maxWidth: 600, borderRadius: 12, marginTop: 12, boxShadow: '0 2px 8px rgba(0,0,0,0.10)' }}
-        />
       </div>
     </section>
   );

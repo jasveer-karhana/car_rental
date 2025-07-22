@@ -57,7 +57,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
         </div>
         <div className="navbar-contacts" style={{ display: 'flex', alignItems: 'center', gap: 16, marginLeft: 32 }}>
           <a
-            href="tel:+919876543210"
+            href="tel:+919818002121"
             title="Call us"
             style={{
               display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -72,7 +72,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
             <BsFillTelephoneFill size={20} />
           </a>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919818002121"
             title="Chat on WhatsApp"
             style={{
               display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -135,7 +135,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
         ))}
         <div style={{ marginTop: 32, display: 'flex', gap: 16 }}>
           <a
-            href="tel:+919876543210"
+            href="tel:+919818002121"
             title="Call us"
             style={{
               display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -150,7 +150,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
             <BsFillTelephoneFill size={20} />
           </a>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919818002121"
             title="Chat on WhatsApp"
             style={{
               display: 'flex', alignItems: 'center', justifyContent: 'center',
