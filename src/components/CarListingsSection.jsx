@@ -11,7 +11,7 @@ const CarListingsSection = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch('/data/cars.json')
+    fetch('/cars.json')
       .then((res) => res.json())
       .then(setCars);
   }, []);

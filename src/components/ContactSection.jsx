@@ -4,7 +4,7 @@ const ContactSection = () => {
   const [contact, setContact] = useState(null);
 
   useEffect(() => {
-    fetch('/data/contact.json')
+    fetch('/contact.json')
       .then((res) => res.json())
       .then(setContact);
   }, []);

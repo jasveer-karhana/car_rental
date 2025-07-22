@@ -4,7 +4,7 @@ const GallerySection = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch('/data/gallery.json')
+    fetch('/gallery.json')
       .then((res) => res.json())
       .then(setImages);
   }, []);
