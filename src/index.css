@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #18191A;
+  color: #F5F6FA;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #fff;
+  margin-top: 0;
+}
+
+section {
+  padding: 64px 0 48px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button, .btn {
+  background: #4F8EF7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 1rem;
+}
+button:hover, .btn:hover {
+  background: #2563eb;
+}
+
+a {
+  color: #4F8EF7;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #23272F;
+}
+::-webkit-scrollbar-thumb {
+  background: #4F8EF7;
+  border-radius: 8px;
+}
+
+.App {
+  background: #18191A;
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Toyota Innova",
+    "image": "images/innova.jpg",
+    "pricePerDay": 3500,
+    "seatingCapacity": 7,
+    "luggageCapacity": 4,
+    "fuelType": "Diesel",
+    "transmission": "Manual"
+  },
+  {
+    "id": 2,
+    "name": "Maruti Suzuki Ertiga",
+    "image": "images/innova.jpg",
+    "pricePerDay": 2800,
+    "seatingCapacity": 7,
+    "luggageCapacity": 3,
+    "fuelType": "Petrol",
+    "transmission": "Manual"
+  },
+  {
+    "id": 3,
+    "name": "Toyota Fortuner",
+    "image": "images/fortuner.jpg",
+    "pricePerDay": 5000,
+    "seatingCapacity": 7,
+    "luggageCapacity": 5,
+    "fuelType": "Diesel",
+    "transmission": "Automatic"
+  },
+  {
+    "id": 4,
+    "name": "Honda City",
+    "image": "images/gallery1.jpg",
+    "pricePerDay": 2200,
+    "seatingCapacity": 5,
+    "luggageCapacity": 2,
+    "fuelType": "Petrol",
+    "transmission": "Automatic"
+  },
+  {
+    "id": 5,
+    "name": "Hyundai Creta",
+    "image": "images/gallery2.jpg",
+    "pricePerDay": 2600,
+    "seatingCapacity": 5,
+    "luggageCapacity": 3,
+    "fuelType": "Diesel",
+    "transmission": "Manual"
+  },
+  {
+    "id": 6,
+    "name": "Mahindra XUV500",
+    "image": "images/gallery3.jpg",
+    "pricePerDay": 3200,
+    "seatingCapacity": 7,
+    "luggageCapacity": 4,
+    "fuelType": "Diesel",
+    "transmission": "Manual"
+  },
+  {
+    "id": 7,
+    "name": "Tata Harrier",
+    "image": "images/fortuner.jpg",
+    "pricePerDay": 3400,
+    "seatingCapacity": 5,
+    "luggageCapacity": 4,
+    "fuelType": "Diesel",
+    "transmission": "Automatic"
+  },
+  {
+    "id": 8,
+    "name": "Maruti Swift Dzire",
+    "image": "images/innova.jpg",
+    "pricePerDay": 1800,
+    "seatingCapacity": 5,
+    "luggageCapacity": 2,
+    "fuelType": "Petrol",
+    "transmission": "Manual"
+  },
+  {
+    "id": 9,
+    "name": "Renault Triber",
+    "image": "images/gallery2.jpg",
+    "pricePerDay": 2100,
+    "seatingCapacity": 7,
+    "luggageCapacity": 3,
+    "fuelType": "Petrol",
+    "transmission": "Manual"
+  }
+] 
