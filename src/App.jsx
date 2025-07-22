@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === 'hero' && <HeroSection />}
+      {activeTab === 'hero' && <HeroSection setActiveTab={setActiveTab} />}
       {activeTab === 'about' && <AboutSection />}
       {activeTab === 'services' && <ServicesSection />}
       {activeTab === 'car-listings' && <CarListingsSection />}

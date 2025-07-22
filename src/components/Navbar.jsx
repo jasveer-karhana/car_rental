@@ -105,7 +105,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
         boxShadow: '2px 0 16px rgba(0,0,0,0.18)',
         zIndex: 10000,
         transition: 'left 0.25s',
-        display: 'flex',
+        display: sidebarOpen ? 'flex' : 'none',
         flexDirection: 'column',
         padding: '32px 18px 18px 18px',
       }}>

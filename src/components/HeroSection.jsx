@@ -33,16 +33,20 @@ const taglineStyle = {
   fontWeight: 500,
 };
 
-const HeroSection = () => (
+const HeroSection = ({ setActiveTab }) => (
   <section id="hero" style={heroBg}>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet" />
     <h1 style={headlineStyle}>KD CAR RENTALS</h1>
     <p style={taglineStyle}>
       Fuel your next adventure - Rent, Ride, Repeat
     </p>
-    <a href="#car-listings" className="btn" style={{ fontSize: '1.3rem', fontWeight: 700, padding: '1rem 2.5rem', borderRadius: 12 }}>
+    <button
+      className="btn"
+      style={{ fontSize: '1.3rem', fontWeight: 700, padding: '1rem 2.5rem', borderRadius: 12 }}
+      onClick={() => setActiveTab('car-listings')}
+    >
       View Cars
-    </a>
+    </button>
   </section>
 );
 
