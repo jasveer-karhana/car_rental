@@ -1,4 +1,6 @@
 import React from 'react';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const navLinks = [
   { label: 'Home', tab: 'hero' },
@@ -47,6 +49,38 @@ const Navbar = ({ activeTab, setActiveTab }) => (
         {link.label}
       </button>
     ))}
+    <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginLeft: 32 }}>
+      <a
+        href="tel:+919876543210"
+        title="Call us"
+        style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          width: 38, height: 38, borderRadius: '50%', background: '#2563eb', color: '#fff',
+          marginRight: 8, textDecoration: 'none', border: '2px solid #2563eb', transition: 'filter 0.18s',
+        }}
+        target="_blank"
+        rel="noopener noreferrer"
+        onMouseOver={e => e.currentTarget.style.filter = 'brightness(1.15)'}
+        onMouseOut={e => e.currentTarget.style.filter = ''}
+      >
+        <BsFillTelephoneFill size={20} />
+      </a>
+      <a
+        href="https://wa.me/919876543210"
+        title="Chat on WhatsApp"
+        style={{
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          width: 38, height: 38, borderRadius: '50%', background: '#25d366', color: '#fff',
+          textDecoration: 'none', border: '2px solid #25d366', transition: 'filter 0.18s',
+        }}
+        target="_blank"
+        rel="noopener noreferrer"
+        onMouseOver={e => e.currentTarget.style.filter = 'brightness(1.15)'}
+        onMouseOut={e => e.currentTarget.style.filter = ''}
+      >
+        <FaWhatsapp size={22} />
+      </a>
+    </div>
   </nav>
 );
 

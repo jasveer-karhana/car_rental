@@ -7,6 +7,8 @@ import CarListingsSection from './components/CarListingsSection';
 import GallerySection from './components/GallerySection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import { FaWhatsapp } from 'react-icons/fa';
 
 function App() {
   const [activeTab, setActiveTab] = useState('hero');
